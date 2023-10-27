@@ -15,3 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "TestingAndroid"
 include(":app")
+include(":data")
+include(":models")
