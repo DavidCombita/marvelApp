@@ -27,7 +27,7 @@ screen or user flow.
 
 ![img.png](imgDocs%2Fimg.png)
 
-## Defining a testing strategy*
+## Defining a testing strategy
 Like in the Android docs, we must define a strategy to our tests too, so we need first define like
 should be our application. 
 Our app will get the information of this API: https://developer.marvel.com/
@@ -38,7 +38,7 @@ Your private api key:
 Hash for request:
 -- 821211cf98f866ca95bc7531d03dd4df
 
-information abuot this API:
+Information about this API:
 **Your rate limit:3000 calls/day**
 
 We must show all the information with respect this mock ups
@@ -58,6 +58,12 @@ We must show all the information with respect this mock ups
 * Medium test (integration)
 * UI tests using fake data with Hilt
 
+## Architecture
+modular
+![diagrama arquitectura.marvel.png](imgDocs%2Fdiagrama%20arquitectura.marvel.png)
+
+Architecture
+![arquitectura_Android.png](imgDocs%2Farquitectura_Android.png)
 
 
 
