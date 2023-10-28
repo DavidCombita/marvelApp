@@ -1,4 +1,4 @@
-package com.example.data
+package com.softyoumobileapp.section
 
 import org.junit.Test
 
