@@ -41,7 +41,8 @@ Hash for request:
 Information about this API:
 **Your rate limit:3000 calls/day**
 
-We must show all the information with respect this mock ups
+We must show all the information with respect this mock ups:
+
 ![Diagrama-mockup-marvel.drawio.png](imgDocs%2FDiagrama-mockup-marvel.drawio.png)
 ![Diagrama-mockup-marvel-2.png](imgDocs%2FDiagrama-mockup-marvel-2.png)
 
@@ -59,11 +60,20 @@ We must show all the information with respect this mock ups
 * UI tests using fake data with Hilt
 
 ## Architecture
-modular
+I use de architecture proposed by Android. MVVM.
+![arquitectura_Android.png](imgDocs%2Farquitectura_Android.png)
+
+## Modularization
+In this application, i will use this architecture modularized by features, we separate
+ui layer, domain and data; everyone has your own subdivisions.
 ![diagrama arquitectura.marvel.png](imgDocs%2Fdiagrama%20arquitectura.marvel.png)
 
-Architecture
-![arquitectura_Android.png](imgDocs%2Farquitectura_Android.png)
+## Development Environment
+Now in this app, i use only Debug environment, because is a test app in this moment.
+
+## UI
+The UI for this application was created with jetpack compose and using an atomic design. 
+Material Design 3 was also used as a guide.
 
 
 
