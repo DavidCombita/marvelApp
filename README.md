@@ -1,5 +1,7 @@
 ## Marvel Project
 
+This is the repository for the Marvel project. It is a work in progress 🚧.
+
 In this project tries explain and create all the possible tests using this application, explaining 
 step by step how we can create all the test and that we can assimilate in android.
 
@@ -27,7 +29,7 @@ screen or user flow.
 
 ![img.png](imgDocs%2Fimg.png)
 
-## Defining a testing strategy
+## Defining a strategy
 Like in the Android docs, we must define a strategy to our tests too, so we need first define like
 should be our application. 
 Our app will get the information of this API: https://developer.marvel.com/
@@ -74,6 +76,10 @@ Now in this app, i use only Debug environment, because is a test app in this mom
 ## UI
 The UI for this application was created with jetpack compose and using an atomic design. 
 Material Design 3 was also used as a guide.
+
+## Central declaration of dependencies
+Using a version catalog
+https://docs.gradle.org/current/userguide/platforms.html#sub:version-catalog
 
 
 
