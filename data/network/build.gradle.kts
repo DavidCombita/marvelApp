@@ -43,6 +43,9 @@ dependencies {
     //Hilt ID
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)
+
+    //test mock
+    implementation(libs.io.mockk)
 }
 
 // Allow references to generated code
