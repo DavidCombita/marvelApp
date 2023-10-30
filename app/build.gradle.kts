@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.softyoumobileapp.testingandroid"
+    namespace = "com.example.testingandroid"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.softyoumobileapp.testingandroid"
+        applicationId = "com.example.testingandroid"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
