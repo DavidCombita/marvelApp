@@ -1,0 +1,12 @@
+[versions]
+hilt = "2.48.1"
+
+[libraries]
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt"}
+
+[plugins]
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+
+# Plugins defined by this project
+nowinandroid-android-hilt = { id = "testingandroid.android.hilt", version = "unspecified" }
