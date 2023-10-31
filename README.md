@@ -64,6 +64,8 @@ We must show all the information with respect this mock ups:
 ## Architecture
 I use de architecture proposed by Android. MVVM.
 ![arquitectura_Android.png](imgDocs%2Farquitectura_Android.png)
+If you wants read more about our implementation you can see: 
+[ArquitectureMarvelMVVM.md](docs%2FArquitectureMarvelMVVM.md)
 
 ## Modularization
 In this application, i will use this architecture modularized by features, we separate
