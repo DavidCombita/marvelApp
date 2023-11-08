@@ -46,6 +46,13 @@ dependencies {
 
     //test mock
     implementation(libs.io.mockk)
+
+    //corrutines
+    implementation(libs.kotlinx.coroutines.android)
+    //json serializated
+    implementation(libs.kotlinx.serialization.json)
+    //gson
+    implementation(libs.google.code.gson)
 }
 
 // Allow references to generated code
